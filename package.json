@@ -1,0 +1,16 @@
+{
+    "name": "sample-node-app",
+    "version": "0.1.0",
+    "private": true,
+      "scripts": {
+        "start": "node index.js",
+        "format": "./node_modules/.bin/prettier --write 'src/**/*.{js,json,md}'"
+    },
+    "dependencies": {
+        "cacheable-lookup": "^6.0.4",
+        "gdnsl": "^0.0.44"
+    },
+    "devDependencies": {
+        "prettier": "^1.18.2"
+    }
+}
